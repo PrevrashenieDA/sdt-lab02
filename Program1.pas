@@ -3,8 +3,9 @@ Const
   A = 23;
   B = 76;
 var
-  S,U,M,QW: integer;
-  D:real;
+  S,U,M,QE: integer;
+  D,QW:real;        
+
 begin
   S := A + B; 
   writeln('Сумма чисел 23 и 76 равна: S = ', S);
@@ -14,6 +15,10 @@ begin
   writeln('Деление чисел 23 и 76 равна: S = ', D);
   M :=A-B;
   writeln('Деление чисел 23 и 76 равна: S = ', M);
-  QW:=A*2;
+
+  QE:=A*2;
+  writeln('a*2', QE);
+  QW:=A/2;
   writeln('QW= ', QW);
+
 end.
